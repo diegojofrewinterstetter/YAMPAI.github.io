@@ -93,3 +93,29 @@ let abajo = document.querySelector('#abajo');
   
 // });
 
+// Send email for API
+
+const form = document.querySelector('#formulario')
+form.addEventListener('submit', handleSubmit)
+
+async function handleSubmit(event){
+event.preventDefault()
+const formulario = new FormData(this)
+const response = await fetch(this.action, { 
+method: this.method,
+body: formulario,
+headers: {
+  'Accept' : 'application/json'
+}
+})
+if (response.ok) {
+  this.reset()
+  Swal.fire({
+    icon: 'success',
+    title: '¡Gracias por contactarnos! Te responderemos en la brevedad.',
+    showConfirmButton: false,
+    timer: 3000
+  })
+}
+
+}
