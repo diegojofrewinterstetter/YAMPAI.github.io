@@ -1,1 +1,3 @@
 # Proyecto Final
+Este proyecto se encuentra en su estado inicial cumpliendo la presentacion final para el curso de desarrollo en JavaScript con CODER HOUSE.
+Dentro del mimso vamos a encontrar el principio de lo que sería una pagina con el fin de realizar una reserva en un emprendimiento familiar real mediante un formularo de contacto. Podemos visualizar un login y un register con todas sus validaciones requeridas. Para dar por concluido este proyecto será necesario la incorporacion de back-end. En esta primer instancia busco cumplir los objetivos porpuestos por el curso quedando espectante a toda critica constructiva. 
